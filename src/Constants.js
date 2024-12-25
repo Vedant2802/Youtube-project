@@ -5,3 +5,9 @@ export const Youtube_Icon =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png";
 export const User_Icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRs_rWILOMx5-v3aXwJu7LWUhnPceiKvvDg&s";
+
+const GOOGLE_API_KEY = "AIzaSyC5mtMJxgy3ok541me7l7PDMKgkRwbiY8A";
+
+export const YOUTUBE_VIDEOS_API =
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=" +
+  GOOGLE_API_KEY;
