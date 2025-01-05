@@ -8,6 +8,8 @@ export const User_Icon =
 
 const GOOGLE_API_KEY = "AIzaSyC5mtMJxgy3ok541me7l7PDMKgkRwbiY8A";
 
+export const OFFSET_LIVE_CHAT = 10;
+
 export const YOUTUBE_VIDEOS_API =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=" +
   GOOGLE_API_KEY;
